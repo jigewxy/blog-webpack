@@ -1,12 +1,17 @@
+div.jumbotron{
+
+  background-image: url("../images/jumb-bg.jpg");
+}
+
+
 div.jumbotron h2{
 
  font-family: Garamond;
 
 }
 
-
 body{
-  background:  #f4f4f4 url(../images/background.png);
+  background:  #cccccc;
 }
 
 div#left-nav{
@@ -25,3 +30,4 @@ ul.ul-nav li{
 margin-left: -30pt;
 width:100pt;
 }
+

@@ -1,9 +1,19 @@
 
+/*import {app as app} from '../app.js';
 //must specify the module name
-angular.module('myApp').controller('resumeCtrl', function($scope){
+app.controller('resumeCtrl', function(){
 
- $scope.particulars = {name:'cliff', age: '31'};
+ var resumeCtrl = this;
+ resumeCtrl.particulars = {name:'Cliff Wang', age: '31'};
+ resumeCtrl.thing = "boring";
 
- console.log($scope.particulars);
+});*/
 
-})
+export default function ResumeCtrl () {
+
+    let resumeCtrl = this;
+    resumeCtrl.particulars = {name:'Cliff Wang', age: '31'};
+    resumeCtrl.thing = "boring";
+
+}
+
